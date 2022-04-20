@@ -80,12 +80,13 @@ a {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    padding: 50px 0px;
 }
 #photos-heading h2 {
     font-size: 36px;
     color: #1F2937;
     text-align: center;
-    padding-top: 50px;
+    font-weight: bold;
 }
 #photos {
     display: flex;
@@ -93,14 +94,44 @@ a {
 }
 .photo {
     width: 15%;
+    display: flex;
+    flex-direction: column;
 }
 .photo img {
     width: 100%;
     height: 100%;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 .photo p {
     font-size: 18px;
     color: #1F2937;
     text-align: center;
     padding-top: 10px;
+}
+#information {
+    background-color: #E5E7EB;
+    padding: 100px 0px;
+}
+#information-holder {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0px auto;
+}
+#information-text {
+    text-align: justify;
+}
+#information-text p {
+    font-size: 36px;
+    color: #1F2937;
+}
+#information-author {
+    align-self: flex-end;
+}
+#information-author p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
 }
